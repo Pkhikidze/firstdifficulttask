@@ -1,6 +1,9 @@
 body{
     margin: 0;
 }
+label{
+    color: brown;
+}
 .wraper{
     display: flex;
     justify-content: space-around;
@@ -1183,7 +1186,4 @@ nav+div+div{
     gap: 6px;
     width: 122px;
     height: 50px;
-}
-label{
-    color: blue;
 }
