@@ -1,12 +1,6 @@
 body{
     margin: 0;
 }
-label{
-    color: brown;
-}
-label{
-    color: brown;
-}
 .wraper{
     display: flex;
     justify-content: space-around;
