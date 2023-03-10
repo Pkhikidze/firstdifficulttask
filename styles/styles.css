@@ -1174,7 +1174,11 @@ nav+div+div{
     width: 70px;
     height: 60px;
     border-radius: 40px;
-}.name{
+}
+
+
+
+.name{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
