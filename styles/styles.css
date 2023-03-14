@@ -20,11 +20,12 @@ header:first-child{
 }
 header div{
     display: flex;
+    gap: 10px;
 }
 header:first-child>div>div{
-    width: 1198.86px;
+    width: 1030px;
     height: 22px;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
 }
 .colorclass{
@@ -43,9 +44,6 @@ header:first-child>div>div{
 }
 .iconbox{
     display: flex;
-    width: 17.83px;
-    height: 17.83px;
-    gap: 17px;
 }
 header+div{
     display: flex;
@@ -1054,6 +1052,7 @@ nav+div+div{
     gap: 39px;
     width: 1200px;
     height: 892.18px;
+    margin-top: 100px;
 }
 .formbox__firstbox{
     display: flex;
@@ -1101,7 +1100,7 @@ nav+div+div{
     height: 45px;
     border: none;
 }
-.costumerbox__title button>span{
+.mini-box-button{
     width: 49px;
     height: 22px;
     font-family: 'Inter';
@@ -1309,4 +1308,347 @@ nav+div+div{
     line-height: 151.52%;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
+}
+.form-box__second-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 23px;
+    width: 580px;
+    height: 892px;
+}
+.second-box__header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    width: 321px;
+    height: 104px;
+}
+.second-box__registration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 580px;
+    height: 765px;
+    background: rgba(244, 244, 244, 1);
+}
+.button-gray-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 7px;
+    gap: 10px;
+    width: 162.16px;
+    height: 45px;
+    border: none;
+}
+.button-gray-box img{
+    width: 24px;
+    height: 24px;
+}
+.button-gray-box span{
+    width: 90px;
+    height: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(28, 39, 82, 1);
+}
+.button-gray-box+span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 44px;
+    color: rgba(28, 39, 82, 1);
+}
+.type-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 45px;
+    width: 464px;
+    height: 629px;
+    justify-content: center;
+}
+.type-size{
+    width: 464px;
+    height: 65px;
+    border: none;
+    padding-left: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(126, 126, 126, 1);
+}
+#textarea{
+    width: 464px;
+    height: 139px;
+}
+.type-box+input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 197px 21px;
+    gap: 10px;
+    width: 494px;
+    height: 65px;
+    border: none;
+    background: rgba(255, 179, 66, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(28, 39, 82, 1);
+}
+.main-form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brend-box__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 44px;
+    width: 1006px;
+    height: 206px;
+}
+.brand-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 94px;
+    width: 1006px;
+    height: 59px;
+}
+.brand-name>div span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 46px;
+    color: rgba(28, 39, 82, 0.4);
+}
+.brend-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 45px;
+    width: 464px;
+    height: 629px;
+    justify-content: center;
+}
+.pricing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 148px 360px;
+    gap: 10px;
+    height: 950px;
+    background: rgba(244, 244, 244, 1);
+}
+.pricing__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 74px;
+    width: 1200px;
+    height: 987px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 144px;
+    width: 1200px;
+    height: 166px;
+}
+.white-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 7px;
+    gap: 10px;
+    width: 186.16px;
+    height: 45px;
+    background: rgba(255, 255, 255, 1);
+}
+.left-title{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 9px;
+    width: 477px;
+    height: 166px;
+}
+.left-title+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.52%;
+    margin-top: 0;
+    margin-bottom: 65px;
+    color: rgba(126, 126, 126, 1);
+}
+#sizespan{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 56px;
+    width: 477px;
+    height: 112px;
+}
+.car-price{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 1200px;
+    height: 596px;
+}
+.car-price__box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+    gap: 10px;
+    width: 384px;
+    height: 596px;
+    background: rgba(255, 255, 255, 1);
+}
+.car-price__box>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 304px;
+    height: 516px;
+}
+.price-heade{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    width: 304px;
+    height: 97px;
+}
+.price-header__number{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 3px;
+    width: 125px;
+    height: 65px;
+}
+.price-header__number h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(28, 39, 82, 1);
+    margin: 0;
+}
+.price-header__number span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 38px;
+    color: rgba(28, 39, 82, 1);
+}
+.price-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 56px;
+    width: 303px;
+    height: 65px;
+}
+.price-header>p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(126, 126, 126, 1);
+}
+.subcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 34px;
+    width: 302px;
+    height: 403px;
+    margin-top: 50px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 20px;
+}
+.list>span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 260%;
+}
+.subcontent>input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 108px 21px;
+    gap: 10px;
+    width: 302px;
+    height: 65px;
+    border: 1.5px solid #FFB342;
+    margin-top: 20px;
+    background-color: rgba(255, 179, 66, 1);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(28, 39, 82, 1);
 }
