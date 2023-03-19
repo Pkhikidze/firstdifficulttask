@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,150 +10,160 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/general.css">
     <title>BMW.com | The international BMW Website</title>
 </head>
 <body>
-    <header class="wraper">
-        <div>
-            <div>
-                <div>
+    <header>
+            <div class="section header-line">
+                <div class="section__content">
                     <span class="colorclass">Opening Hours: 06:00 to 20:00</span>
-                </div>
-                <div class="iconbox">
-                    <div >
-                        <img src="images/Insta.svg" alt="icon">
-                        <img src="images/facebook/Vector.svg" alt="icon"> 
-                        <img src="images/twiter/Vector.svg" alt="icon"> 
-                        <img src="images/pinterest/Vector.svg" alt="icon"> 
+                    <div class="header-line__social">
+                        <img src="images/Insta.svg.svg" alt="icon">
+                        <img src="images/fb.svg.svg" alt="icon"> 
+                        <img src="images/twitter.svg.svg" alt="icon"> 
+                        <img src="images/pinterest.svg.svg" alt="icon"> 
                     </div>
                 </div>
-            </div> 
-        </div>
+            </div>
+            <div class="section header-logo">
+                <div class="section__content">
+                    <div class="header-logo__section">
+                        <a href="index.html"><img class="header-logo__image" src="images/bmwlogo.png" alt="logo"></a>
+                        <a class="header-logo__text" href="index.html">BMW Grup</a>
+                    </div>
+                    <div class="contacts">
+                        <div class="contacts__contact">
+                            <div class="contact__icon">
+                                <img src="images/CallVector.svg" alt="icon">
+                            </div>
+                            <div class="contact__info">
+                                <a class="contact__title" href="tel:599200045"> Call Us</a>
+                                <a class="contact__text" href="tel:599200045">+995 599200045</a>
+                            </div>
+                        </div>
+                        <div class="contacts__contact">
+                            <div class="contact__icon">
+                                <img src="images/mail.svg" alt="icon">
+                            </div>
+                            <div class="contact__info">
+                                <a class="contact__title" href="mailto:pxikidze21@gmail.com">Mail Us</a>
+                                <a class="contact__text" href="mailto:pxikidze21@gmail.com">pxikidze@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </header>
-    <div class="wraper">
-        <div>
-            <a href="index.html"><img src="images/logo-light.svg" alt="logo"></a>
-            <a href="index.html">B M W</a>
-        </div>
-        <div>
-            <div class="flex">
-                <div class="contactclass">
-                    <div><img src="images/CallVector.svg" alt="icon"></div>
-                </div>
-                <div>
-                    <a href="tel:599200045"> Call Us</a>
-                    <a href="tel:599200045">+995 599200045</a>
-                </div>
-            </div>
-            <div class="flex">
-                <div class="contactclass">
-                    <div><img src="images/mail-iconb.png" alt="icon"></div>
-                </div>
-                <div>
-                    <a href="mailto:pxikidze21@gmail.com">Mail Us</a>
-                    <a href="mailto:pxikidze21@gmail.com">pxikidze@gmail.com</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <nav>
-        <div class="navbox">
-            <div>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Pages</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact Us</a></li>
+    <section class="section hero">
+        <div class="section__content">
+            <nav class="navigation hero__navigation">
+                <ul class="navigation__menu">
+                    <li class="navigation__menu-item"><a href="">Home</a></li>
+                    <li class="navigation__menu-item"><a href="">About Us</a></li>
+                    <li class="navigation__menu-item"><a href="">Pages</a></li>
+                    <li class="navigation__menu-item"><a href="">Blog</a></li>
+                    <li class="navigation__menu-item"><a href="">Contact Us</a></li>
                 </ul>
-            </div>
-            <div>
-                <button type="button">
+
+                <button type="button" class="navigation__cta">
                     <span>Have Any Questions?</span>
+                </button>
+            </nav>
+            <div class="hero__description">
+                <button id="buttonbox" type="button" class="icon-subtitle">
+                    <img class="icon__image" src="images/bmwlogo.png" alt="logo"> 
+                    <span class="icon__text">Individual mobility</span>
+                </button>
+                <span class="hero__description-text">When you can't stop sheer driving pleasure</span>
+                <button class="hero__description-button" type="button">
+                    <span>Read More</span>
                 </button>
             </div>
         </div>
-    </nav>
-    <div>
-        <div>
-            <button id="buttonbox" type="button">
-                <img src="images/logo-light.svg" alt="logo"> 
-                <span>Individual mobility</span>
-            </button>
-            <span>When you can't stop sheer driving pleasure</span>
-        </div>
-        <button class="buttonReadMore" type="button"> <span>Read More</span></button>
-    </div>
-    <div>
-        <div id="divimgbox">
-
-        </div>
-        <div>
-            <div id="conteinerimgID">
-                <img src="images/logo-light.svg" alt="logo">
-                <span>Welcome B M W</span>
-            </div>
-            <div id="conteinerID">
-                <h2>We offer you safety and comfort.</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde totam architecto, nemo repellendus minus porro quas inventore ipsa. Lorem ipsum
-                    dolor sit amet consectetur adipisicing elit.  </p>
-            </div>
-            <div>
-                <div id="numberboxID">
-                    <div>
-                        <span id="numbersize" >107</span> 
-                        <span id="textsize" >Years Of Rxperiance</span>
-                    </div> 
+    </section>
+    <main>
+        <section class="section about">
+            <div class="section__content section__content--gap ">
+                <div class="about__image">
                 </div>
-                <div id="spanboxID">
-                    <span>- Future of Tech</span>
-                    <span>- BMW Life Style</span>
-                    <span>- Driven by your cheers </span>
-                    <span>- Dream drive</span>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="yellowdiv">
-        <div>
-            <div>
-                <h2>BMW in your country</h2>
-                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in perspiciatis amet animi voluptatum 
-                    atque dolore, laudantium blanditiis?
-                </span>
                 <div>
-                    <button type="button"><img src="images/factory.png" alt="icon"> Factories</button>
-                    <button type="button"><img id="logosize" src="images/Car-Icon-SVG-9049jvc.png" alt="icon"> Cars</button>
-                    <button type="button"><img src="images/engine.png" alt="icon"> Engines</button>
+                    <button type="button" class="icon-subtitle icon-subtitle--changes">
+                        <img class="icon__image icon__image--width" src="images/bmwlogo.png" alt="logo"> 
+                        <span class="icon__text icon__text--font">welcome BMW</span>
+                    </button>
+                    <div class="about__text">
+                        <h2 class="about__title">We offer you safety and comfort</h2>
+                        <p class="about__parahraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde totam architecto, nemo repellendus minus porro quas inventore ipsa. Lorem ipsum
+                            dolor sit amet consectetur adipisicing elit.  </p>
+                    </div>
+                    <div class="about__experiance">
+                        <div class="about__year">                     
+                            <span class="about__year-number">107</span> 
+                            <span class="about__year-text">Years Of Rxperiance</span>
+                        </div>
+                        <div class="about__list" >
+                            <span class="about__list-text">- Future of Tech</span>
+                            <span class="about__list-text">- BMW Life Style</span>
+                            <span class="about__list-text">- Driven by your cheers </span>
+                            <span class="about__list-text">- Dream drive</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="position">
-        <div class="factoryes">
-            <div class="factoryes__div">
-                <div class="factoryes__div--flex">
-                    <div>
-                        <div class="minibox" >
-                            <img src="images/factory.png" alt="icon">
-                            <h3>About the factory</h3>
-                        </div>
+        </section>
+        
+        <section class="section services">
+            <div class="section__content section__content--center " id="margin">
+                <div class="services__content">
+                    <h2 class="services__content-title">BMW in your country</h2>
+                    <p class="services__content-paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate in perspiciatis amet animi voluptatum 
+                        atque dolore, laudantium blanditiis?
+                    </p>    
+                    <div class="services__content-section" >
+                        <button class="servicrs___section-button" type="button">
+                            <img src="images/factory.png" alt="icon"> Factories
+                        </button>
+                        <button class="servicrs___section-button" type="button">
+                            <img id="logosize" src="images/Car-Icon-SVG-9049jvc.png" alt="icon"> Cars
+                        </button>
+                        <button class="servicrs___section-button" type="button">
+                            <img src="images/engine.png" alt="icon"> Engines
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section details">
+            <div class="section__content section__content--center" id="height">
+                <div class="details__content">
+                    <div class="details__text">
+                        <button type="button" class="icon-subtitle icon-subtitle--changes">
+                            <img class="icon__image icon__image--width" src="images/bmwlogo.png" alt="logo"> 
+                            <span class="icon__text icon__text--font">About the factory</span>
+                        </button>
                         <div>
                             <h2>Factories</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis tempora modi facere impedit rem numquam animi porro beatae
-                                placeat natus at quaerat eaque necessitatibus nihil, officiis illum exercitationem neque eveniet.</p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis tempora modi facere impedit rem numquam animi porro beatae
+                                placeat natus at quaerat eaque necessitatibus nihil, officiis illum exercitationem neque eveniet.
+                            </p>
                         </div>
-                        <button class="buttonReadMore" id="buttonReadMore"  type="button"><span>Read More</span></button>
+                        <button class="details__button" type="button">
+                            <span>Read More</span>
+                        </button>
                     </div>
-                    <div id="backboximg">
-                        <img src="images/BMWfactory.jpg" alt="image">
+                    <div class="details__image">
+                        <img src="images/BMWfactory.jpg" alt="images">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div>
+    </main>
+
+    <!-- <div>
         <div class="modelbox">
             <div class="headinbox">
                 <div>
@@ -458,13 +469,13 @@
                 <div class="second-box__registration">
                     <form action="">
                         <div class="type-box">
-                        
+
                             <input class="type-size" type="text" name="text" placeholder="Your Name" required>
                             <input class="type-size" type="email" name="email" placeholder="Email Address" required>
                             <input class="type-size" type="tel" name="tel" placeholder="Phone Number" required>
                             <input class="type-size" type="date" name="date" placeholder="Date" required>
-                            <textarea class="type-size" id="textarea" name="Service Description"  placeholder="Service Description">
-    
+                            <textarea
+                                 class="type-size" id="textarea" name="Service Description"  placeholder="Service Description">
                             </textarea>
                         </div>
                         <input type="submit">
@@ -640,5 +651,10 @@
             </div>
         </div>
     </div>
+    <div>
+        <div class="blog-box">
+            
+        </div>
+    </div> -->
 </body>
 </html>
