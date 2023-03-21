@@ -408,6 +408,7 @@ a{
 
 .models{
     background-color: #F4F4F4;
+    padding-bottom: 150px;
 }
 .models__header{
     display: flex;
@@ -476,7 +477,7 @@ a{
     background-color: #003b74;
 }
 .models__list--red{
-background-color: #db2617;
+    background-color: #db2617;
 }
 .models__header h2{
     font-family: 'Mulish';
@@ -491,4 +492,54 @@ background-color: #db2617;
 }
 .models__pharagraph{
     color: #000000af;
+}
+
+/* blur */
+
+.blur__image{
+    display: flex;
+    background-image: url(../images/bmw-x8.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.blur__box{
+    display: flex;
+    flex-direction: column;
+    background: #1c2752b3;
+    backdrop-filter: blur(12.5px);
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 100px;
+    width: 400px;
+    height: 453px;
+}
+.blur__counters{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+    border: 1px solid white;
+    width: 300px;
+}
+.blur__counters-number{
+    display: flex;
+    align-items: center;
+    width: 96px;
+    height: 55px;
+    justify-content: center;
+    background-color: #0063ab;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 31px;
+    color: #ffffff;
+}
+.blur__counters-text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
 }
