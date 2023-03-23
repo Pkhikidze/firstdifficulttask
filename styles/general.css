@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-
 }
 .section__content{
     width: 1200px;
@@ -17,6 +16,11 @@
 } 
 .section__content--center{
     justify-content: center;
+}
+.section__content--gray{
+    margin-top: 150px;
+    background-color: #F4F4F4;
+    height: 1200px;
 }
 h1, h2, h3, h4, p{
     margin: 0;
@@ -170,7 +174,6 @@ a{
     justify-content: space-between;
     padding: 14px;
     align-items: center;
-
 }
 .navigation__menu{
     display: flex;
@@ -233,7 +236,6 @@ a{
     background-color: #F4F4F4;
     width: 195.48px;
     height: 45px;
-
 }
 
 /* // main */
@@ -301,7 +303,6 @@ a{
     background-color: #000000;
     margin-top: 150px;
     height: 750px;
-    
 }
 .services__content{
     display: flex;
@@ -406,7 +407,6 @@ a{
     position: absolute;
     top: 2330px;
     box-shadow: 0px 20px 38px #d8d8d840;
-
 }
 /* models */
 
@@ -433,7 +433,6 @@ a{
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    
 }
 .models__title{
     font-family: 'Mulish';
@@ -552,7 +551,7 @@ a{
     color: #FFFFFF;
 }
 .blur__content{
-    width: 1400px;
+    width: 1920px;
     gap: 70px;
     align-items: center;
 }
@@ -565,7 +564,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 44px;
+    gap: 20px;
 }
 .experiance__header{
     display: flex;
@@ -640,14 +639,14 @@ a{
 .gallery__subtitle--grey+span{
     font-family: 'Mulish';
     font-weight: 800;
-    font-size: 45px;
+    font-size: 35px;
     color: #FFFFFF;
 }
 .gallery__image{
     display: flex;
     justify-content: center;
     flex-direction: column; 
-    width: 280px;
+    width: 300px;
     height: 425px;
     align-items: center;
     background-color: #ffffff;
@@ -657,17 +656,15 @@ a{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 234px;
+    width: 260px;
     height: 300px;
     margin-bottom: 35px;
-
-
 }
 .gallery__backgroun--7{
     background-image: url(../images/7series.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 234px;
+    width: 260px;
     height: 300px;
     background-position: center;
     margin-bottom: 35px;
@@ -676,7 +673,7 @@ a{
     background-image: url(../images/x7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 234px;
+    width: 260px;
     height: 300px;
     background-position: center;
     margin-bottom: 35px;
@@ -685,8 +682,324 @@ a{
     background-image: url(../images/bmw-x8.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 234px;
+    width: 260px;
     height: 300px;
     background-position: center;
     margin-bottom: 35px;
+}
+.gallery__image h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #003b74;
+}
+
+/* testimonial */
+.testimonial{
+    height: 892.18px;
+    margin-top: 150px;
+    gap: 39px;
+}
+.testimonial__title{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 372px;
+    height: 104px;
+
+}
+.testimonial__title>span{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    color: #0063ab;
+    gap: 23px;
+} 
+.testimonial__costumers{
+    width: 581px;
+    height: 892.18px;
+}
+.testimonial__costumers-text{
+    width: 581px;
+    height: 411.18px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial__personal-info{
+    width: 503px;
+    height: 333.18px;
+}
+.testimonial__profile{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial__image{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.testimonial__image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.testimonial__profile+p{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.02%;
+    margin-top: 44px;
+}
+.testimonial__navigation{
+    margin-top: 30px;
+}
+.testimonial__name h2{
+    color: #0063ab;
+    margin-bottom: 6px;
+}
+.testimonial__navigation button{
+    width: 44.8px;
+    height: 44.8px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0063ab;
+}
+.testimonial__navigation button:hover{
+    background-color: #ffffff;
+}
+
+/* any-qustion */
+
+.any-qustion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 581px;
+    height: 321px;
+    background-color: #0063ab;
+    margin-top: 33px;
+}
+.any-qustion__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 497px;
+    height: 221px;
+}
+.any-qustion__text h2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.any-qustion__text span{
+    color: #ffffffb7;   
+}
+.any-qustion__number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.any-qustion__number a{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* appointment */
+
+.appointment{
+    display: flex;
+    flex-direction: column;
+    width: 580px;
+    height: 892px;
+}
+.appointment__header>span{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 35px;
+    color: #0063ab;
+}
+.appointment__header{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 321px;
+    height: 104px;
+}
+.appointment__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+    width: 580px;
+    height: 765px;
+}
+.appointment__form-content{
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 629px;
+    gap: 22px;
+}
+.appointment__input{
+    border: none;
+    width: 464px;
+    height: 60px;
+}
+.textarea{
+    height: 100px;
+}
+.appointment__submit{
+    background-color: #0063ab;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* brand */
+
+.brand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    width: 1006px;
+    height: 206px;
+    margin-top: 75px;
+}
+.brend__header>span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    color: #0063ab;
+} 
+.brand__list{
+    display: flex;
+    justify-content: space-between;
+    width: 1006px;
+    height: 59px;
+    gap: 14px;
+}
+.brend__header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+.brand__name{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 37px;
+}
+
+/* pricing */
+.pricing{
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.pricing__header{
+    display: flex;
+    width: 1200px;
+    height: 166px;
+    align-items: center;
+}
+.pricing__title{
+    display: flex;
+    flex-direction: column;
+    width: 577px;
+    height: 166px;
+    gap: 15px;
+}
+.pricing__title>span{
+    font-family: 'Mulish';
+    font-weight: 800;
+    font-size: 45px;
+    color: #0063ab;
+}
+.pricing__title+p{
+    width: 579px;
+    height: 74px;
+}
+.pricing__content{
+    display: flex;
+    gap: 24px;
+    width: 1200px;
+    height: 596px;
+}
+.pricing-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 384px;
+    height: 596px;
+}
+.pricing-box__title{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 304px;
+    height: 97px;
+    margin-bottom: 30px
+}
+.pricing__subcontent{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 304px;
+    height: 516px;
+
+}
+.pricing__subcontent>input{
+    width: 302px;
+    height: 65px;
+    background: #0063ab;
+    border: none;
+    margin-top: 35px;
+}
+.pricing-box__content{
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+    height: 516px;
+}
+.pricing-title__number h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    color: #003b74;
+}
+.pricing-title__number span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    color: #003b74;
+}
+.pricing__list{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.pricing__list img{
+    width: 16.96px;
+    height: 16.96px;
+}
+.pricing__list span{
+    font-weight: 400;
+    font-size: 16px;
 }
