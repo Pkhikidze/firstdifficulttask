@@ -159,6 +159,7 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #ffffff;
+    transition: background-color, color, 0.5s;
 }
 .hero__description-button:hover{
     background-color: white;
@@ -187,6 +188,10 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    transition: font-size, 0.5s;
+}
+.navigation__menu-item a:hover{
+    font-size: 22px;
 }
 .navigation__cta{
     width: 251px;
@@ -197,6 +202,7 @@ a{
     font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
+    transition: background-color, color, 0.5s;
 }
 .navigation__cta:hover{
     background-color: #FFFFFF;
@@ -344,6 +350,7 @@ a{
     font-size: 20px;
     gap: 10px;
     color: #000000;
+    transition: background-color, color, 0.5s;
 }
 .services___section-button:hover{
     background-color: #ffffff;
@@ -394,6 +401,7 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+    transition: background-color, color, 0.5s;
 }
 .details__button:hover{
     background-color: #000000;
@@ -456,6 +464,11 @@ a{
     padding-left: 36px;
     padding-right: 36px;
     box-sizing: border-box;
+    transition: width, height, 0.5s;
+}
+.models__section:hover{
+    width: 403px;
+    height: 342px;
 }
 .models__image{
     width: 48px;
@@ -470,6 +483,7 @@ a{
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
+    transition:  color, 0.5s;
 }
 .models__section a:hover{
     color: #000000;
@@ -654,6 +668,11 @@ a{
     height: 425px;
     align-items: center;
     background-color: #ffffff;
+    transition: width, height, 0.5s;
+}
+.gallery__image:hover{
+    width: 330px;
+    height: 455px;
 }
 .gallery__background{
     background-image: url(../images/bmw-m5-cs.jpg);
@@ -772,6 +791,7 @@ a{
     border-radius: 50px;
     border: none;
     background-color: #0063ab;
+    transition: background-color, 0.5s;
 }
 .testimonial__navigation button:hover{
     background-color: #ffffff;
@@ -871,6 +891,7 @@ a{
     font-family: 'Inter';
     font-weight: 600;
     font-size: 20px;
+    transition: background-color, color, 0.5s;
 }
 .appointment__submit:hover{
     background-color: #003b74;
@@ -980,6 +1001,7 @@ a{
     background: #0063ab;
     border: none;
     margin-top: 35px;
+    transition: background-color, color, 0.5s;
 }
 .pricing__subcontent>input:hover{
     background-color: #003b74;
@@ -1076,6 +1098,7 @@ a{
     align-items: center;
     background-color: #0063ab;
     color: #ffffff;
+    transition: background-color, color, 0.5s;
 }
 .blog__position-box:hover{
     background-color: #ffffff;
@@ -1103,6 +1126,7 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #003b74;
+    transition: color, 0.5s;
 }
 .blog__text a:hover{
     color: #000000;
@@ -1162,7 +1186,12 @@ a{
     font-weight: 600;
     font-size: 20px;
     color: #0063ab;
+    transition: background-color, color, 0.5s;
 }
+.newslatter__email-submit:hover{
+    background-color: #000000;
+    color: #ffffff;
+} 
 .newslatter__seconde ::placeholder{
     font-weight: 400;
     font-size: 16px;
