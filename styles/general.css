@@ -471,6 +471,9 @@ a{
     font-size: 18px;
     color: #FFFFFF;
 }
+.models__section a:hover{
+    color: #000000;
+}
 .models__text{
     display: flex;
     flex-direction: column;
@@ -641,6 +644,7 @@ a{
     font-weight: 800;
     font-size: 35px;
     color: #FFFFFF;
+    margin-top: 9px;
 }
 .gallery__image{
     display: flex;
@@ -866,6 +870,10 @@ a{
     font-weight: 600;
     font-size: 20px;
 }
+.appointment__submit:hover{
+    background-color: #003b74;
+    color: #ffffff;
+}
 
 /* brand */
 
@@ -971,6 +979,10 @@ a{
     border: none;
     margin-top: 35px;
 }
+.pricing__subcontent>input:hover{
+    background-color: #003b74;
+    color: #ffffff;
+}
 .pricing-box__content{
     display: flex;
     flex-direction: column;
@@ -1002,4 +1014,91 @@ a{
 .pricing__list span{
     font-weight: 400;
     font-size: 16px;
+}
+
+/* blog */
+
+.blog{
+    justify-content: center;
+    height: 779px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.blog__title{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog__title>span{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    color: #003b74;
+}
+.blog__content{
+    display: flex;
+    gap: 33px;
+    width: 1200px;
+    height: 629px;
+}
+.blog__content-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 585px;
+    height: 629px;
+}
+.blog__content-section img{
+    width: 584px;
+    height: 361px;  
+}
+.blog__position{
+    display: flex;
+    width: 354px;
+    height: 60px;
+    position: relative;
+    top: -29px;
+}
+.blog__position-box{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: #0063ab;
+    color: #ffffff;
+}
+.blog__position-box:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.blog__position-box--blue{
+    background-color: #003b74;
+}
+.blog__text{
+    width: 584px;
+    height: 213px;      
+}
+.blog__text h2{
+    font-family: 'Mulish';
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 9px;
+    color: #003b74;
+}
+.blog__text p{
+    margin-bottom: 26px;
+}
+.blog__text a{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    color: #003b74;
+}
+.blog__text a:hover{
+    color: #000000;
 }
